@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+  }
+@font-face {
+font-family: 'stay_home' ;
+src: url("STAYHOME.otf");
+           
+  }
+@media (min-width: 768px) {
+
+
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(253, 250, 250, 0.966);
+}
+
+.titre{
+  font-family: 'stay_home';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: center;
+  color:#383838;
+  
+  
+}
+.reponse{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color:#080808;
+  background-color: rgba(250, 246, 246, 0.87);
+  
+  
+}
+body{
+  background-image: url("liquid-nitrogen-in-bucket-at-lab.jpg");
+  background-size: cover;
+  background-color: rgba(250, 246, 246, 0.65);
+  backdrop-filter: blur(15px);
+  opacity: 0,9;
+  
+  
+}
+
+#recherche {
+   
+      background:#d8d6d0;
+      box-shadow:2px 2px 8px #aaa;
+      font:bold 40px Arial;
+      
+      columns: #383838;
+}
+}
+@media (max-width: 767px) {
+  
+
+  .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(253, 250, 250, 0.966);
+  }
+  
+  .titre{
+    font-family: 'stay_home';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color:#383838;
+    
+    
+  }
+  .reponse{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color:#080808;
+    background-color: rgba(250, 246, 246, 0.87);
+    
+    
+  }
+  body{
+    background-image: url("liquid-nitrogen-in-bucket-at-lab.jpg");
+    background-size: cover;
+    background-color: rgba(250, 246, 246, 0.65);
+    backdrop-filter: blur(15px);
+    opacity: 0,9;
+    
+    
+  }
+  
+  #recherche {
+     
+        background:#d8d6d0;
+        box-shadow:2px 2px 8px #aaa;
+        font:bold 25px Arial;
+        columns: #383838;
+  }
+
+}
